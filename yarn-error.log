@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/Romualdo/opt/anaconda3/bin:/Users/Romualdo/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/Romualdo/Documents/flutter/bin:/usr/local/bin:/usr/local/mysql/bin:/Users/Romualdo/.composer/vendor/bin:/usr/local/mongodb/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/Wireshark.app/Contents/MacOS:/Users/Romualdo/Library/Android/sdk/emulator:/Users/Romualdo/Library/Android/sdk/tools:/Users/Romualdo/Library/Android/sdk/tools/bin:/Users/Romualdo/Library/Android/sdk/platform-tools:/opt/metasploit-framework/bin:/opt/metasploit-framework/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
+
+npm manifest: 
+  {
+    "name": "nodejs-mysql-railway",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "dev": "nodemon src/app.js",
+      "start": "node src/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.1",
+      "mysql2": "^2.3.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.20"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
